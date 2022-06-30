@@ -8,7 +8,7 @@ public class Perimeterofrectangle{
 	void CalculatePerimeter() {
 		System.out.println(2*(length + width));
 	}
-	public class Perimeterofrectangl1{
+	public class Perimeterofrectangle1{
 		public static void main(String args[]) {
 			PerimeterofRectangle r1=new PerimeterofRectangle();
 			r1.insert(9,5);
