@@ -6,7 +6,7 @@ public class Areaofrectangle{
 		width =w;
 	}
 	void CalculateArea() {
-		System.out.println(length*width));
+		System.out.println(length*width);
 	}
 	public class Areaofrectangle1{
 		public static void main(String args[]) {
