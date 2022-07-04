@@ -1,0 +1,21 @@
+public class WithoutTmethod1{
+    int rollno;
+    String name;
+    float fee;
+    WithoutTmethod1(int rollno, String name, float fee){
+        rollno = rollno;
+        name = name;
+        fee = fee;
+    }
+    void display(){
+        System.out.println(rollno+""+name+""+fee);
+    }
+    public class WithoutTmethod{
+        public static void main(String[]args){
+            WithoutTmethod1 s1 = new WithoutTmethod1(111,"Arin",98000);
+            WithoutTmethod1 s2 = new WithoutTmethod1(112,"Koushik",87000);
+            s1.display();
+            s2.display();
+        }
+    }
+}
