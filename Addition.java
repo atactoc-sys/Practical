@@ -1,4 +1,4 @@
-//method overloading :
+//method overloading : changing argument
 
 public class Addition { //class
     static int add (int a,int b){//no. of arguments 2 add is a method 
