@@ -5,9 +5,10 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class ArrrayListSortDemo {
-    public static void main(String[] args) {
-
+public class ArrrayListSortDemo
+{
+    public static void main(String[] args)
+    {
         List<String> a8 = new ArrayList<String>();
         //ADDING OBJECT TO ARRAYLIST
         a8.add("uio");
@@ -37,7 +38,8 @@ public class ArrrayListSortDemo {
         System.out.println("INTEGER SORTED LIST");
         //SORTING ARRAYLIST
         Collections.sort(al);
-        for (Integer i : al){
+        for (Integer i : al)
+        {
             System.out.println(i);
         }
     }
