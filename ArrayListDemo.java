@@ -64,8 +64,7 @@ public class ArrayListDemo {
         System.out.println("TRAVERSING USING LIST ITERATOR-BACKWARD");
         ListIterator<String> itr2 = a1.listIterator(a1.size());//GETTING ITERATOR
         while (itr2.hasPrevious()){//CHECKING ITERATOR HAS ELEMENT
-            System.out.println(itr2.previous());//PRINTING ELEMENT AND MOVE PREVIOUS
-
+            System.out.println(itr2.previous());//PRINTING
         }
 
     }
